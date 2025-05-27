@@ -71,8 +71,15 @@
         }
 
         .clip-overlay .image-before {
-            width: 200%;
-            transform: translateX(0);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: calc(100vw);
+            height: 100vh;
+            background-image: url('./taroba-before.png');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
         }
 
         .divider {
